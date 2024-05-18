@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("Img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.mouse{
+    width: 60px;
+    left: 28%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: mouse 5s linear infinite;
+
+}
+.mouse img{
+    width: 100%;
+}
+@keyframes mouse{
+    100%{
+        transform: translateX(700px);
+    }
+}
+.cat{
+    width: 120px;
+    left: 20%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: cat 5s linear infinite;
+
+ 
+}
+.cat img{
+    width: 100%;
+}
+@keyframes cat{
+    100%{
+        transform: translateX(700px);
+    }
+}
+.dog{
+    width: 200px;
+    left: 5%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: dog 5s linear infinite;
+
+
+}
+.dog img{
+    width: 100%;
+}
+@keyframes dog{
+    100%{
+        transform: translateX(700px);
+    }
+}
